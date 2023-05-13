@@ -6,7 +6,10 @@ const Todo = db.Todo
 const User = db.User
 
 router.get('/', (req, res) => {
+  const userId = req.user.id
+  console.log(userId)
   return Todo.findAll({
+    where: { UserId: userId },
     raw: true,
     nest: true
   })
