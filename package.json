@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "gcp-build": "npm run lint && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
+    "gcp-build": "npm run lint && npm run build",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=12.0.0"
