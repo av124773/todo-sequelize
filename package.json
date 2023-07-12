@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "gcp-build": "npm run lint && npm run build",
     "dev": "nodemon app.js",
   },
   "engines": {
