@@ -10,7 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 const routes = require('./routes')
 const usePassport = require('./config/passport')
 const app = express()
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 8080 // 3001
 
 app.engine('hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }))
 app.set('view engine', 'hbs')
